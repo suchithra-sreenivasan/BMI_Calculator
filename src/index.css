@@ -1,0 +1,11 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Slab", serif;
+
+}
+body{
+  background-image: url('./images/sporty-woman-kitchen-with-healthy-juice.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

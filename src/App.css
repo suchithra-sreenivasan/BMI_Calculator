@@ -1,0 +1,45 @@
+.app-container {
+    height: 100vh;
+    width: 100%;
+    
+  }
+  
+  .bmi-calculator {
+    width: 600px;
+    border-color: rgb(209, 79, 79);
+   background-color: rgba(104, 98, 98, 0.678);
+  }
+  
+  .bmi-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 425px) {
+    .bmi-calculator {
+      width: 80%;
+    }
+    
+    .bmi-image {
+      height: 100%;
+    }
+  }
+  
+  .custom-dialog .MuiPaper-root {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #c4bab9;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-dialog h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .custom-dialog .MuiButton-root {
+    background-color: #992d19;
+    color: white;
+    text-transform: none;
+  }
