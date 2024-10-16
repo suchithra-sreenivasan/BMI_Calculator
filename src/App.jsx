@@ -1,5 +1,6 @@
 import './App.css';
 import image from './images/img1.png';
+import img from './images/img2.png'
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
@@ -135,7 +136,7 @@ function App() {
       <Dialog open={open} onClose={handleClose} className="custom-dialog">
         <DialogTitle className="text-center">BMI </DialogTitle>
         <DialogContent className="text-center">
-          <img src="https://cdn-icons-png.flaticon.com/512/4349/4349072.png" alt="" width={'100%'} height={'300px'}/>
+          <img src={img} alt="" width={'100%'} height={'300px'} className='dialog'/>
           <h3>Your BMI is: <strong>{Total}</strong></h3>
           <p>This result indicates that you are: <strong>{category}</strong></p>
         </DialogContent>
